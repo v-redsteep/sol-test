@@ -9,3 +9,7 @@ typechain-types
 cache
 artifacts
 
+
+# Hardhat files
+cache
+artifacts
