@@ -22,5 +22,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm install --save-dev hardhat
     - run: npx hardhat compile
     - run: npx hardhat test
